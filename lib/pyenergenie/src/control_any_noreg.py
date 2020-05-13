@@ -21,7 +21,7 @@ socket5     = energenie.Devices.ENER002((0x1234, 1))
 # A MiHome device that we know the address of from a previous capture
 socket6     = energenie.Devices.MIHO005(0x68b)
 
-sockets     = [all_sockets, socket1, socket2, socket3, socket4, socket5, socket6]
+sockets     = [socket1, socket2]
 
 
 def legacy_socket_loop():

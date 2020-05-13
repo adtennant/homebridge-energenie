@@ -1,0 +1,19 @@
+ADD spare
+type=ENER002
+device_id=[0x6C6C6, 1]
+
+ADD shelf
+type=ENER002
+device_id=[0x6C6C6, 2]
+
+ADD speakers_and_screens
+type=ENER002
+device_id=[0x6C6C6, 3]
+
+ADD surface_dock
+type=ENER002
+device_id=[0x6C6C6, 4]
+
+ADD light
+type=ENER002
+device_id=[0x7C7C7, 0]
